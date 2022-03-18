@@ -13,9 +13,19 @@ import {
 
 import { GoogleLoginProvider } from 'angularx-social-login';
 import { AuthGuard } from './guards/auth.guard';
+import { Login2Component } from './pages/login2/login2.component';
+import { Login3Component } from './pages/login3/login3.component';
+import { IndexComponent } from './pages/index/index.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, DashboardComponent],
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    DashboardComponent,
+    Login2Component,
+    Login3Component,
+    IndexComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
